@@ -69,3 +69,22 @@ module.exports = override(
   })
 )
 ```
+* 更改App.tsx
+```javascript
+import React, { Component } from 'react';
+import { Button } from 'antd';
+import './App.less';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Button type="primary">Button</Button>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+运行 yarn start 在http://localhost:3000访问，可查看效果
