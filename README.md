@@ -87,4 +87,4 @@ class App extends Component {
 
 export default App;
 ```
-运行 yarn start 在http://localhost:3000访问，可查看效果
+运行 yarn start 在 http://localhost:3000 访问，可查看效果
