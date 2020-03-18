@@ -20,3 +20,11 @@ yarn add antd
 ```bash
 yarn add react-app-rewired customize-cra
 ```
+```json
+  /* package.json */
+  "scripts": {
+     "start": "react-app-rewired start",
+     "build": "react-app-rewired build",
+     "test": "react-app-rewired test",
+  }
+```
